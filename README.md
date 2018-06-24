@@ -12,14 +12,15 @@ After installing Go, you will need to run on a command line:
 
 <code>go get gopkg.in/mgo.v2</code>
 
-<code>cd name_server1<br>
-go build</code>
-
 This demo uses a database called "rpc1", with a collection called "names".
 The fields are "firstName" and "lastName".
 
 ## Running flutter_test2
-First, start the MongoDB server with the default settings.
-Then, run the name server.
+First, start the MongoDB server with the default settings; next, connect your device and
+
+<code>go run name_server1/main.go</code>
+
+<code>flutter run</code> (in a separate console window)
+
 After those steps, the app should work. 
 
